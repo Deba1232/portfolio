@@ -12,7 +12,7 @@ const Home = () => {
           I'm a Front End Developer
         </h2>
         <div>
-          <button className="text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
+          <button className="text-white border-2 px-6 py-3 my-3 flex items-center hover:bg-pink-600 hover:border-pink-600">
             View projects <HiArrowNarrowRight className="ml-3" />
           </button>
         </div>
