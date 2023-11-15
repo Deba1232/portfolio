@@ -16,7 +16,7 @@ const NavBar = () => {
         <img src={Logo} alt="logo" style={{ width: "50px" }} />
       </div>
       {/*normal view */}{" "}
-      <ul className="hidden md:flex">
+      <ul className="hidden sm:flex">
         <li>Home</li>
         <li>About</li>
         <li>Skills</li>
@@ -24,7 +24,7 @@ const NavBar = () => {
         <li>Contact</li>
       </ul>
       {/*mobile view */}
-      <div onClick={handleClick} className=" z-10 md:hidden">
+      <div onClick={handleClick} className=" z-10 sm:hidden">
         {navDrop ? <FaTimes /> : <FaBars />}
       </div>
       <ul
